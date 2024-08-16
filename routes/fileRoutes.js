@@ -4,7 +4,7 @@ const path = require('path');
 const router = express.Router();
 
 
-const folderPath="/GUVI/Task/Node JS/37_day/Files"
+const folderPath="/Files"
 router.post('/create', (req, res) => {
     const moment = require('moment');
     const timeStamp=moment().format("DD-MM-YYYY-HH-mm-ss")
